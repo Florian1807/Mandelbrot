@@ -81,7 +81,7 @@ class Mandelbrot { // statische Klasse
 			cx = xa + sp * dx; // von links nach rechts
 			for (int ze = 0; ze < imageHoehe; ze++) {
 				cy = ye - ze * dy; // von oben nach unten
-				if (iterZahl(cx, cy, maxIt) == maxIt) {// Wenn das Pixel an dr Stelle (sp|ze) in der Mandelrotmenge liegt...
+				if (iterZahl(cx, cy, maxIt) == maxIt) {// Wenn das Pixel an der Stelle (sp|ze) in der Mandelrotmenge liegt...
 					g.drawLine(sp, ze, sp, ze);
 				zeichnePixel(sp, ze, pixFarbe);//...wird das Pixel mit der Pixelfarbe aus dem Array eingefärbteingefärbt
 			}else{
@@ -92,7 +92,8 @@ class Mandelbrot { // statische Klasse
 		
 		}
 	}
-	//public class zeichnePixel ()
+	public class zeichnePixel ()
+	
 	
 }
 
