@@ -92,5 +92,7 @@ class Mandelbrot { // statische Klasse
 		
 		}
 	}
+	//public class zeichnePixel ()
+	
 }
 
