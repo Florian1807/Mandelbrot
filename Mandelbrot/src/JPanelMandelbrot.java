@@ -57,7 +57,7 @@ class Mandelbrot { // statische Klasse
 		return maxIt;//Rückgabe
 	}
 
-	public static void zeichneMandelbrotmenge(Graphics g, int imageBreite, int imageHoehe) {//Array farbFeld erstellen und mit Farben befüllen
+	 static void zeichneMandelbrotmenge(Graphics g, int imageBreite, int imageHoehe) {//Array farbFeld erstellen und mit Farben befüllen
 		final Color[] farbFeld = { 
 				Color.YELLOW, 
 				Color.RED, 
